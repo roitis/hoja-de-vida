@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #97b8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column {
+    background-color: #76cab1;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-column img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border: 4px solid #949191;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p, .skills p, .languages p, .right-column p {
+    font-size: 1em;
+    color: #555;
+    margin: 8px 0;
+}
+
+.right-column {
+    padding: 20px;
+}
+
+.right-column h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c1c1c1;
+    padding-bottom: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.edit-button, .save-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;  
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-button:hover, .save-button:hover {
+    background-color: #45a049;  
+    transform: scale(1.05);  
+}
+
+.save-button {
+    background-color: #008CBA;  
+}
+
+.save-button:hover {
+    background-color: #007bb5;  
+}

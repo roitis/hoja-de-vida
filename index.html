@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="yo.JPG" alt="Foto de perfil">
+            <h1 id="name">John Alejandro Roa Prada</h1>
+            <h2 id="profession">Tecnólogo en sistemas</h2>
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p>Email: <a href="mailto:john.roa01@usc.edu.co" id="email">john.roa01@usc.edu.co</a></p>
+                <p>Teléfono: <span id="phone">+57 300 341 9394</span></p>
+                <p>Dirección: <span id="address">Calle 32c 5e11</span></p>
+            </div>
+            <div class="skills">
+                <h3>Habilidades</h3>
+                <p id="skills">:D las tendre</p>
+            </div>
+            <div class="languages">
+                <h3>Idiomas</h3>
+                <p id="languages">Español, Inglés</p>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="section">
+                <h2>Experiencia Laboral</h2>
+                <p><strong id="experience">No tengo</strong></p>
+            </div>
+
+            <div class="section">
+                <h2>Formación Académica</h2>
+                <p><strong id="education">Estudiante en tecnología en sistemas</strong> - Universidad Santiago de Cali, 2023 - 2025</p>
+            </div>
+
+            <div class="section">
+              <h2>referencias</h2>
+                <p><strong id="referencias">ekp tecnology</strong> - jefe:   Brian julian mera </p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-- Contenedor para los botones de editar y guardar cambios -->
+    <div class="buttons-container">
+        <button class="edit-button" onclick="toggleEdit()">Editar Todo</button>
+        <button class="save-button" onclick="saveChanges()">Guardar Cambios</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
